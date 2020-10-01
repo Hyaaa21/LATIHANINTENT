@@ -20,15 +20,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Button for Move Activity
         Button btnMoveActivity = findViewById(R.id.btn_move_activity);
         btnMoveActivity.setOnClickListener(this);
 
+        // Button for Move Activity with data
         Button btnMoveWithDataActivity = findViewById(R.id.btn_move_activity_data);
         btnMoveWithDataActivity.setOnClickListener(this);
 
+        // Button for Move Activity with object
         Button btnPindahActivityDenganObjek = findViewById(R.id.btn_Pindah_Activity_Dengan_Objek);
         btnPindahActivityDenganObjek.setOnClickListener(this);
 
+        // Button for Move to Phone Dial
         Button btnDialPhone = findViewById(R.id.btn_Dial_Number);
         btnDialPhone.setOnClickListener(this);
 
