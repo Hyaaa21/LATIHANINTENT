@@ -1,4 +1,5 @@
 # LATIHANINTENT
+Projek Android Studioku
 ini project kedua saya, tentang Latihan Intent
 di project ini saya belajar:
 Menggunakan Intent Explitic
